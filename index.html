@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Editor de codigo</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="contenedor">
+    <textarea onkeyup="update()" id="text" class="text" placeholder="Escribe tu codigo aqui"></textarea>
+
+    <iframe id="view" srcdoc=""></iframe>
+
+    </div>
+    <script src="app_babel.js"></script>
+</body>
+</html>
